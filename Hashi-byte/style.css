@@ -11,7 +11,8 @@
 body{
   font-family:  'Times New Roman', Times, serif;
   font-size: 14px;
-  color: #7F6DFF;
+  color: azure;
+  background-color: #5e5c67;
 
 }
 
@@ -63,14 +64,7 @@ ol li{
 
 }
 
-#hashiposter{
-    float:right;
-    margin: 10px;
 
-    margin-bottom: 50px;
-    margin-right: 20px;
-
-}
 
 /** pseudo classess ****/
 
@@ -91,9 +85,48 @@ a:active{
     color:green;font-weight: bold;
 }
 
+/***** ____ID SELECTORS___*****/
+
+#hashiposter{
+    float:right;
+    margin: 10px;
+
+    margin-bottom: 50px;
+    margin-right: 20px;
+    width: 400px;
+    height: 650px;
+
+   
+
+}
+
 #centerDoc a:link{
     color: green;text-decoration: underline;
 }
 #centerDoc a:hover{
     color: blue;
+}
+
+#navigation{
+    position: absolute;
+    z-index: 10;
+    width: 210;
+    height: 600px;
+    margin: 0;
+    border-right: 1px solid #7F6DFF;
+    font-weight: normal;
+    
+    
+}
+
+#centerDoc{
+    position:absolute;
+    z-index: 15;
+    padding: 0 0 20px 20px;
+    margin-top: 50px;
+    margin-left: 230px;
+    width: 80%;
+    min-width: 500x;
+    max-width: 1200px;
+
 }
