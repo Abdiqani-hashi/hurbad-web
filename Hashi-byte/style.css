@@ -1,0 +1,25 @@
+/*Tag Selectors */
+
+/**colors 
+color:#7F6DFF;
+white #FFFFFF;
+blue:#89BEFC;
+pink:#F289FB;
+
+
+
+**/
+body{
+  font-family:  'Times New Roman', Times, serif;
+  font-size: 14px;
+  color: #7F6DFF;
+
+}
+
+h1{
+    font-family:  'Times New Roman', Times, serif;
+     font-weight: bold;  
+    color: rgb(0, 0, 0);
+
+
+}
