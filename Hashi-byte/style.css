@@ -11,8 +11,8 @@
 body{
   font-family:  'Times New Roman', Times, serif;
   font-size: 14px;
-  color: azure;
-  background-color: #5e5c67;
+  color: #000000;
+  background-color: #ffffff;
 
 }
 
@@ -96,8 +96,6 @@ a:active{
     width: 400px;
     height: 650px;
 
-   
-
 }
 
 #centerDoc a:link{
@@ -108,9 +106,9 @@ a:active{
 }
 
 #navigation{
-    position: absolute;
+    position:relative;
     z-index: 10;
-    width: 210;
+    width: 210px;
     height: 600px;
     margin: 0;
     border-right: 1px solid #7F6DFF;
@@ -125,7 +123,7 @@ a:active{
     padding: 0 0 20px 20px;
     margin-top: 50px;
     margin-left: 230px;
-    width: 80%;
+    width: 90%;
     min-width: 500x;
     max-width: 1200px;
 
