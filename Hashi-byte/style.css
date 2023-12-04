@@ -54,8 +54,21 @@ p{
 }
 
 ul li{
-    list-style: circle;
+    list-style: none;
     line-height: 200%;
+    width: 200px;
+    font-size: 28px;
+    float: right;
+    margin-left: 10px;
+
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+
+    width: 200px;
+    padding: 5px 10px 5px 10px;
+
+
 }
 ol li{
     list-style-type: numbers;
@@ -71,6 +84,7 @@ ol li{
 a:link{
     color :green;
     text-decoration: none;
+background-color: gray;
 
 }
 a:visited{
@@ -100,19 +114,17 @@ a:active{
 
 #centerDoc a:link{
     color: green;text-decoration: underline;
+
 }
 #centerDoc a:hover{
     color: blue;
+    margin-top: 100px;
 }
 
 #navigation{
-    position:relative;
-    z-index: 10;
-    width: 210px;
-    height: 600px;
-    margin: 0;
-    border-right: 1px solid #7F6DFF;
-    font-weight: normal;
+    position:absolute;
+    margin-right: 50px;
+
     
     
 }
@@ -121,8 +133,8 @@ a:active{
     position:absolute;
     z-index: 15;
     padding: 0 0 20px 20px;
-    margin-top: 50px;
-    margin-left: 230px;
+    margin-top: 100px;
+    margin-left: 50px;
     width: 90%;
     min-width: 500x;
     max-width: 1200px;
